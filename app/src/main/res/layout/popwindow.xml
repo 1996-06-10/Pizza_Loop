@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:hint="Email"
+        >
+    </EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Credit/Debit Card Number"
+        android:hint="Credit/Debit Card Number"
+        >
+    </EditText>
+
+
+        <Button
+            android:id="@+id/confirm"
+            android:text="Confirm"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick=""
+            android:layout_marginBottom="5dp">
+        </Button>
+        <Button
+            android:id="@+id/cancel"
+            android:text="Cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="">
+
+        </Button>
+</LinearLayout>
